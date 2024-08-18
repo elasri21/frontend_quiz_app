@@ -42,8 +42,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/elasri21/frontend_quiz_app)
-- Live Site URL: [Add live site URL here](https://elasri21.github.io/frontend_quiz_app/)
+- Solution URL: [Solution URL here](https://github.com/elasri21/frontend_quiz_app)
+- Live Site URL: [Live site URL here](https://elasri21.github.io/frontend_quiz_app/)
 
 ## My process
 
@@ -60,8 +60,8 @@ With this one app i learned a lot, i learned the level i am at, and how to impro
 
 ## Author
 
-- Website - [Elasri Mohamed](https://github.com/elasri21)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/elasri21)
+- Website - [Elasri21](https://github.com/elasri21)
+- Frontend Mentor - [Elasri21](https://www.frontendmentor.io/profile/elasri21)
 
 ## Acknowledgments
 
