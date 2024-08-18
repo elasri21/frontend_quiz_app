@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Frontend quiz app</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body class="light">
+    <header>
+      <div><img src="./assets/images/icon-sun-dark.svg" alt=""></div>
+      <div class="toggle">
+        <button class="round light-btn"></button>
+        <button class="round dark-btn"></button>
+      </div>
+      <div><img src="./assets/images/icon-moon-dark.svg" alt=""></div>
+    </header>
+    <main>
+      <div class="title">
+        <h1>
+          <span>Welcome to the</span>
+          frontend quiz!
+        </h1>
+        <p>pick a subject to get started</p>
+      </div>
+      <div class="subjects">
+          <button data-subject="HTML" data-index="0" class="subject">
+            <img class="html-icon" src="./assets/images/icon-html.svg" alt="html">
+            <span class="html">html</span>
+          </button>
+          <button data-subject="CSS" data-index="1" class="subject">
+            <img class="css-icon" src="./assets/images/icon-css.svg" alt="css">
+            <span>css</span>
+          </button>
+          <button data-subject="JavaScript" data-index="2" class="subject">
+            <img class="js-icon" src="./assets/images/icon-js.svg" alt="javascript">
+            <span>javascript</span>
+          </button>
+          <button data-subject="Accessibility" data-index="3" class="subject">
+            <img class="access-icon" src="./assets/images/icon-accessibility.svg" alt="accessibility">
+            <span>accessibility</span>
+          </button>
+      </div>
+    </main>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $family;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &.light {
+        @media (min-width: 922px) {
+            background-image: url("../assets/images/pattern-background-desktop-light.svg") !important;
+        }
+        @media (min-width: 768px) and (max-width: 921px) {
+            background-image: url("../assets/images/pattern-background-tablet-light.svg") !important;
+        }
+        
+        background-image: url("../assets/images/pattern-background-mobile-light.svg");
+        background-color: $body-bg;
+        color: $body-color;
+    }
+    &.dark {
+        @media (min-width: 922px) {
+            background-image: url("../assets/images/pattern-background-desktop-dark.svg") !important;
+        }
+        @media (min-width: 768px) and (max-width: 921px) {
+            background-image: url("../assets/images/pattern-background-tablet-dark.svg") !important;
+        }
+        background-image: url("../assets/images/pattern-background-mobile-dark.svg");
+        color: $body-bg;
+        background-color: $body-color;
+    }
+
+}
+ul {
+    list-style: none;
+}
+button {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    transition: .3s linear;
+}

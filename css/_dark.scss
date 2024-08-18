@@ -1,0 +1,60 @@
+.dark {
+    main {
+        .title {
+            p {
+                color: $p-color;
+                transition: .3s linear;
+            }
+        }
+        .subjects {
+            .subject {
+                background-color: $dark-box-body;
+                transition: .3s linear;
+                span {
+                    color: $Pure-White;
+                    transition: .3s linear;
+                }
+            }
+            &.chosen-subject {
+                h2 {
+                    color: $Pure-White;
+                    transition: .3s linear;
+                }
+                .options {
+                    .option {
+                        background-color: $dark-box-body;
+                        transition: .3s linear;
+                        span {
+                            background-color: $Pure-White;
+                            transition: .3s linear;
+                        }
+                        h3 {
+                            color: $Pure-White;
+                            transition: .3s linear;
+                        }
+                    }
+                }
+                .result-container {
+                    background-color: $dark-box-body;
+                    transition: .3s linear;
+                    h2 {
+                        color: $Pure-White;
+                        transition: .3s linear;
+                    }
+                    .picked-subject {
+                        span {
+                            color: $Pure-White;
+                            transition: .3s linear;
+                        }
+                    }
+                    .result {
+                        h3, span {
+                            color: $Pure-White;
+                            transition: .3s linear;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
